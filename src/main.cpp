@@ -4,10 +4,10 @@
 #include <iostream>
 #include <conio.h>
 
-#include "Screen.h"
 #include "camera.h"
 #include "vec2.h"
 #include "worldMap.h"
+#include "screen.h"
 
 
 //place the example code below here:

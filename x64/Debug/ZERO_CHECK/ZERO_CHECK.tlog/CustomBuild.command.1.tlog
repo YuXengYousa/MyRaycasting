@@ -1,0 +1,10 @@
+^E:\DOCUMENTS\CODEFIELD\C++\RAYCAST-2D\CMAKEFILES\1DADE8CFD8EC4373227137471199BBF6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Documents/CodeField/C++/raycast-2d -BE:/Documents/CodeField/C++/raycast-2d --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Documents/CodeField/C++/raycast-2d/raycast-2d.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
